@@ -85,9 +85,6 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
-  border-radius: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #eeeeee;
 }
 
 .list-services {
@@ -196,6 +193,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--logo-colar);
+  margin-bottom: 4px;
 }
 /* Кнопки */
 
@@ -362,4 +360,12 @@ p {
 .wrap-services {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+  border-left-color: #eeeeee;
+  border-right-color: #eeeeee;
 }
